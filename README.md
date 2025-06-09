@@ -7,8 +7,8 @@ O repositório é organizado da seguinte forma:
 
 - **`docs/`**: Diretório que contém o relatório técnico do projeto.
 - **`src/`**: Diretório que contém os códigos do projeto.
-  - **`core/`** Diretório que contém o código fonte do monitoramento de apostas.
-  - **`games/`** Diretório que contém o código fonte dos jogos do cassino online.
+  - **`core/`**: Diretório que contém o código fonte do monitoramento de apostas.
+  - **`games/`**: Diretório que contém o código fonte dos jogos do cassino online.
 
 ## Integrantes do Grupo:
 * João Vitor Monteiro dos Santos
