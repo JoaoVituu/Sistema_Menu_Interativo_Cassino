@@ -76,12 +76,12 @@ conta = menu(conta)
 
 clean()
 
-while aposta > 36 or aposta < 1:
+while aposta > 36 or aposta < 0:
     clean()
     roleta()
-    aposta = int(input('Selecione sua aposta interna: 1-36\n'))
+    aposta = int(input('Selecione sua aposta interna: 0-36\n'))
     if aposta > 36 or aposta < 0:
-        print('Valor inválido, Selecione um númeor entre 1-36')
+        print('Valor inválido, Selecione um númeor entre 0-36')
 
 valor = int(input('Quanto deseja apostar?\n'))
 
