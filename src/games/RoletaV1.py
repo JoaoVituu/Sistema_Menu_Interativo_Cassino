@@ -126,11 +126,11 @@ if apout == RorBorG(ganhador):
 print('O Valor sorteado é: ' + str(ganhador))
 
 if RorBorG(ganhador) == 1:
-     print(str(ganhador) + 'é Vermelho\n')
+     print(str(ganhador) + ' é Vermelho\n')
 if RorBorG(ganhador) == 2:
-     print(str(ganhador) + 'é Preto\n')
+     print(str(ganhador) + ' é Preto\n')
 if RorBorG(ganhador) == 3:
-     print(str(ganhador) + 'é Verde\n')
+     print(str(ganhador) + ' é Verde\n')
 
 
 if ganhador == aposta:
