@@ -114,7 +114,6 @@ if apout == 2:
 if apout == 3:
      print('Você apostou na Verde')
 
-#ganhador = 12
 ganhador = random.randint(0, 36)
 
 if apout == RorBorG(ganhador):
