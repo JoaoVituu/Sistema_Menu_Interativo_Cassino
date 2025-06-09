@@ -35,3 +35,5 @@ ganhador = random.randint(1, 99)
 
 print('O Valor sorteado é: ')
 print(ganhador)
+
+print('teste atualização')
