@@ -134,6 +134,6 @@ if RorBorG(ganhador) == 3:
 
 
 if ganhador == aposta:
-     conta = conta + 10*valor
+     conta = conta + 10 * valor
 
 print('Novo Saldo: R$' + str(conta))
