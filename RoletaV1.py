@@ -27,7 +27,7 @@ for x in range(100):
     if x==1:
         prGreen(x)
 
-input('Selecione em quais valores deseja apostar')
+input('faça a sua aposta:')
 
 clean()
 
