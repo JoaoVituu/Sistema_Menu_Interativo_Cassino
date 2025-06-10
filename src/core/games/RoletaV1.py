@@ -2,7 +2,6 @@
 #1. o menu precisa ser feito em um loop e o balanço da conta deve ser lembrado
 #2. precisamos achar um jeito de fazer com que você possa jogar infinitamente até que um botão seja apertado. Enquanto isso, a qualquer momento você deve poder adicionar fundos
 
-
 import random
 from os import system, name
 import sys
@@ -57,6 +56,8 @@ def Game(conta):
 
      aposta = -1
      apout = -1
+
+     
 
      clean()
 
