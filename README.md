@@ -1,4 +1,4 @@
-# Sistem_Monitoring_Bet
+# System_Monitoring_Bet
 Este repositório contém o projeto desenvolvido para o seminário da disciplina de **Estrutura de Dados I**, focado em resolver um problema do mundo real: **O monitoramento de apostas de um cassino online**.
 
 ## Estrutura do Repositório
