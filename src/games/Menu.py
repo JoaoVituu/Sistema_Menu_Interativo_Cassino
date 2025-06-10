@@ -1,8 +1,5 @@
 import RoletaV1 as r
 
-with open("Users.txt", "a") as f:
-    f.write("Hello, world!\n")
-
 UserId = input('Login: ')
 input('Senha: ')
 

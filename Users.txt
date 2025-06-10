@@ -1,6 +1,2 @@
-Hello, world!
-Hello, world!
-Hello, world!
-Hello, world!
-Hello, world!
-Hello, world!
+Esse .txt (teoricamente) deve ser usado como um banco de dados para os usuários e o valor de suas contas, pra poder calcular os lucros
+se alguém conseguir aprender a mexer com isso, tmj, senão, eu tento aprender dps
