@@ -33,9 +33,9 @@ def Nique(conta):
 		conta = conta - valor
 	result = Roll()
 	if result[0] == result[1] and result[1] == result[2]:
-		conta = conta * 10
+		conta = conta + (valor * 10)
 	if result[0] == result[1] or result[1] == result[2] or result[0] == result[2]:
-		conta = conta * 2
+		conta = conta + (valor * 2)
 	print('seu novo saldo é: ' + str(conta))
 	return conta
 
