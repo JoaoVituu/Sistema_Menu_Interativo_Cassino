@@ -36,6 +36,7 @@ def Nique(conta):
 		conta = conta * 10
 	if result[0] == result[1] or result[1] == result[2] or result[0] == result[2]:
 		conta = conta * 2
+	print('seu novo saldo é: ' + str(conta))
 	return conta
 
 	

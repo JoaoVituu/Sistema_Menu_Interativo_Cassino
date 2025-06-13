@@ -120,3 +120,4 @@ def Game(conta):
           conta = conta + 10 * valor
 
      print('Novo Saldo: R$' + str(conta))
+     return conta
