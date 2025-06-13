@@ -24,7 +24,8 @@ def Roll():
 
 def Nique(conta):
 	conta = int(conta)
-	valor = int(input('Faça sua aposta: '))
+	print('Seu saldo ' + str(conta))
+	valor = int(input('\nFaça sua aposta: '))
 	if valor > conta:
 		print('Fundos insuficientes')
 		sys.exit()
@@ -37,6 +38,4 @@ def Nique(conta):
 		conta = conta * 2
 	return conta
 
-conta = Nique(500)
-print(conta)
 	
