@@ -26,7 +26,7 @@ class User : #Definição da classe
                 time.sleep(1.5)
                 continue
             saldoPrev = self.saldo + deposito
-            resp = int(input('Saldo final será de {:.2f}R$\n1. Confirmar\n2. Alterar depósito\n'.format(saldoPrev)))
+            resp = int(input('Saldo final será de R${:.2f}\n1. Confirmar\n2. Alterar depósito\n'.format(saldoPrev)))
             while resp != 1 and resp != 2:
                 resp = int(input('Número inválido digite novamente\nSaldo final será de {:.2f}R$\n1. Confirmar\n2. Alterar depósito\n').format(saldoPrev))
                 time.sleep(1.5)
