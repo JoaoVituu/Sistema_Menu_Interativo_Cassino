@@ -5,6 +5,7 @@
 
 import random
 from os import system, name
+import time 
 import sys
 
 def clean():                    #função que limpa o texto do terminal
@@ -52,7 +53,7 @@ def RorBorG(x):
               return 1
               
 
-def Game(conta):
+def jogar(conta):
      clean()
 
      aposta = -1
@@ -119,5 +120,5 @@ def Game(conta):
      if ganhador == aposta:
           conta = conta + 10 * valor
 
-     print('Novo Saldo: R$' + str(conta))
+     input('seu novo saldo é: {}R$\nPressione enter para continuar'.format(conta))
      return conta

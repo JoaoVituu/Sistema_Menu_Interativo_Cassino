@@ -1,5 +1,6 @@
 import random
 from os import system, name
+import time
 import sys
 
 def clean():                    #função que limpa o texto do terminal
@@ -22,7 +23,7 @@ def Roll():
 	return result
 	
 
-def Nique(conta):
+def jogar(conta):
 	conta = int(conta)
 	print('Seu saldo ' + str(conta))
 	valor = int(input('\nFaça sua aposta: '))
@@ -36,7 +37,7 @@ def Nique(conta):
 		conta = conta + (valor * 10)
 	if result[0] == result[1] or result[1] == result[2] or result[0] == result[2]:
 		conta = conta + (valor * 2)
-	print('seu novo saldo é: ' + str(conta))
+	input('seu novo saldo é: {}R$\nPressione enter para continuar'.format(conta))
 	return conta
 
 	
