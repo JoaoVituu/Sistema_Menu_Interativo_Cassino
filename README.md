@@ -38,7 +38,7 @@ Para rodar este projeto, siga os passos abaixo:
 
 1.  **Clone o Repositório:**
     ```sh
-    git clone [URL_DO_SEU_REPOSITORIO_AQUI]
+    git clone https://github.com/JoaoVituu/System_Monitoring_Bet
     cd System_Monitoring_Bet
     ```
     
