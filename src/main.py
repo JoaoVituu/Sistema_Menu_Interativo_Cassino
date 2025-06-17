@@ -38,4 +38,4 @@ menuOpt.adFilho('3', menu.Menu('3. Excluir conta\n', acesso.rmConta))
 while True:
     logado = menu.navegar(menuAcesso)
     if logado:
-        logado = menu.navegar(menuPrinc, logado, menuPrinc)
+        logado = menu.navegar(menuPrinc, logado)
