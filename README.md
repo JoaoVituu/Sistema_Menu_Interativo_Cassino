@@ -2,7 +2,7 @@
 Este repositório contém o projeto desenvolvido para o seminário da disciplina de **Estrutura de Dados I**, focado em resolver um problema do mundo real: **Cassino Online**.
 
 
-## Estrutura do Repositório
+## 📂 Estrutura do Repositório
 
 O repositório é organizado da seguinte forma:
 
@@ -33,7 +33,7 @@ O repositório é organizado da seguinte forma:
         -   `caca_niquel.py`: Lógica do jogo Caça-Níquel.
      
           
-## Como executar
+## 🚀 Como executar
 Para rodar este projeto, siga os passos abaixo:
 
 1.  **Clone o Repositório:**
