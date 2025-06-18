@@ -119,3 +119,5 @@ def rmConta(userAtual):
             return None
         print('Resposta inválida\n')
         tools.sleep(1)
+def sair(userAtual):
+    return "Sesão Encerrada"

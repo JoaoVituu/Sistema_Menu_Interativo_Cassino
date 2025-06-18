@@ -18,7 +18,7 @@ menuAcesso.adFilho('3', menu.Menu('3. Sair\n', tools.exit))
 menuPrinc = menu.Menu('Bem Vindo ao Cassino Online\n')
 menuPrinc.adFilho('1', menu.Menu('1. Jogar\n'))
 menuPrinc.adFilho('2', menu.Menu('2. Opcões\n'))
-menuPrinc.adFilho('3', menu.Menu('3. Sair\n', tools.exit))
+menuPrinc.adFilho('3', menu.Menu('3. Sair\n', acesso.sair))
 
 #Define os submenus que são filhos do menu principal
 menuJogo = menuPrinc.menuFilhos['1']
