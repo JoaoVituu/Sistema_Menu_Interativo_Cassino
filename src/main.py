@@ -6,6 +6,9 @@ from jogos import roleta
 from uteis import ferramentas as tools
 from contas import acesso
 
+#Usuário para teste Login = admin senha = admin
+admin = usuario.User("admin","admin","admin")
+admin.saldo = 9999.99
 # -------------------- Montagem da Estrutura de Menus --------------------------------
 
 #Define a estrutura do menu de acesso (Usuário não logado)
@@ -34,7 +37,7 @@ menuOpt.adFilho('3', menu.Menu('3. Excluir conta\n', acesso.rmConta))
 #Loop gerencia o estado da sessão do usuário
 #1. Navega pelo menu de acesso. Se o usuário criar conta ou logar, 'logado' recebe o objeto do usuário
 #2. Se 'logado' for um objeto de usuário (True) é iniciado o menu principal
-#3. Se o usuário excluir a conta durante o menu principal logado recebe None, e o ciclo recomeça do menu acesso
+#3. Se o usuário excluir a conta durante o menu principal ou sair dele o logado recebe None, e o ciclo recomeça do menu acesso
 while True:
     logado = menu.navegar(menuAcesso)
     if logado:

@@ -26,8 +26,7 @@ class User :
         self.login = login
         self.senha = senha
         self.nome = nome
-        self.saldo = 10.00 
-        self.histBet = [] 
+        self.saldo = 10.00  
         User.all_users[nome] = self 
         
     #Método que gerencia o processo de depósito para a conta do usuário
