@@ -48,7 +48,7 @@ Para rodar este projeto, siga os passos abaixo:
     ```
 
    
-## Integrantes do Grupo:
+## 👤 Integrantes do Grupo:
 * João Vitor Monteiro dos Santos
 * Allex França Pereira
 * Gabriel Rezende Borges
