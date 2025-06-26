@@ -1,5 +1,5 @@
-# System_Monitoring_Bet
-Este repositório contém o projeto desenvolvido para o seminário da disciplina de **Estrutura de Dados I**, focado em resolver um problema do mundo real: **Cassino Online**.
+# Sistema_Menu_Interativo_Cassino_Online
+Este repositório contém o projeto desenvolvido para o seminário da disciplina de **Estrutura de Dados I**, focado em resolver um problema do mundo real: **Menu Interativo**.
 
 
 ## 📂 Estrutura do Repositório
@@ -38,7 +38,7 @@ Para rodar este projeto, siga os passos abaixo:
 
 1.  **Clone o Repositório:**
     ```sh
-    git clone https://github.com/JoaoVituu/System_Monitoring_Bet
+    git clone https://github.com/JoaoVituu/Sistema_Menu_Interativo_Cassino.git
     cd System_Monitoring_Bet
     ```
     
