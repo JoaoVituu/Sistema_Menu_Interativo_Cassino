@@ -47,7 +47,7 @@ def jogar(user):
      while aposta > 36 or aposta < 0:
           tools.clean()
           roleta()
-          aposta = int(input('Selecione sua aposta interna: 0-36\n'))
+          aposta = float(input('Selecione sua aposta interna: 0-36\n'))
           if aposta > 36 or aposta < 0:
                print('Valor inválido, Selecione um númeor entre 0-36')
 

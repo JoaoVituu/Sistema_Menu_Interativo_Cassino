@@ -13,7 +13,7 @@ def jogar(user):
 	tools.clean()
 	conta = user.saldo
 	print('Seu saldo ' + str(conta))
-	valor = int(input('\nFaça sua aposta: '))
+	valor = float(input('\nFaça sua aposta: '))
 	if valor > conta:
 		print('Fundos insuficientes')
 		tools.sleep(1)
